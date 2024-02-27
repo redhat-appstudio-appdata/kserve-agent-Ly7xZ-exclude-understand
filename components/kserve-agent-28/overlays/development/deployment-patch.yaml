@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-agent-28
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-agent/kserve-agent-28@sha256:43daf65335af15e08169ea6ebb6aa3af2514dd3b474e6a5002d1429e9a4e61e4
+        name: container-image
+        resources: {}
+status: {}
