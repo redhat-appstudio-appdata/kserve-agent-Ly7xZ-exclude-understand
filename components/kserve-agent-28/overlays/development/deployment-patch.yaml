@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/modh/kserve-agent@sha256:6c27fa5ee873291434af47cdd3ee71b9966326ceeed05bd86304f334b1e939c4
+      - image: quay.io/modh/kserve-agent@sha256:4091d01ff30961d8725d2d9cb58d1096e8a0326123e2db0e729230f9977d0f79
         name: container-image
         resources: {}
 status: {}
