@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-agent-28
     spec:
       containers:
-      - image: quay.io/modh/kserve-agent@sha256:ecb15649c22ce8ca9466bf2e87ec7b950d2a9292085a7afa02b09d7d4a6725a4
+      - image: quay.io/modh/kserve-agent@sha256:7a912f371274b405aeb9e9720ce7e6d95f5870fbef6dc857decc79cb1adbff95
         imagePullPolicy: Always
         name: container-image
         ports:
